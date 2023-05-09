@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family= Actor & display=swap') ;
+
+:root
+{
+    --cor-primaria: #CACACA;
+    --cor-secundaria: black;
+    --fonte: 'Actor', sans-serif;
+    --fonte-largura: 1.125rem;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 99px;
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte);
+    padding: 40px;
+}
+header
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navegacao
+{
+    display: flex;
+    gap: 60px;
+}
+
+a
+{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.botoes-loguin
+{
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    width: 310px;
+    column-gap: 20px;
+}
+
+.botao-loguin
+{
+    padding: 14px 37px;
+    font-size: var(--fonte-largura);
+
+}
+
+.botao-negro
+{
+    color: #FFFFFF;
+    background-color: var(--cor-secundaria);
+}
+
+main
+{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 180px;
+}
+.apresentacao
+{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 40px;
+}
+
+h1
+{
+    font-size: 70px;
+}
+
+p{
+    font-size: var(--fonte-largura);
+}
+
+.apresentacao__texto
+{
+    text-align: left;
+}
+
+.apresentacao__inscricao
+{
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    width: auto;
+
+}
+
+.apresentacao__inscricao__elemento
+{
+    width: auto;
+    font-size: var(--fonte-largura);
+    padding: 13px 20px;
+}
+
+#botao-inscricao
+{
+    width: 200px; 
+}
+
+.apresentacao__logos
+{
+    display: flex;
+    gap: 32px;
+}
+
+@media(max-width: 412px) and (max-height: 915px)
+{
+    body
+    {
+        
+        padding: 10px;
+        row-gap: 40px;
+        overflow-x: hidden;
+    }
+
+    header
+    {
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        padding: 9px;
+    }
+
+    .imagem
+    {
+        display: none;
+    }
+
+    .navegacao
+    {
+        gap: 25px;
+    }
+
+    .botoes-loguin
+    {
+        flex-grow: 0;
+        justify-content: stretch;
+        width: auto;
+        gap: 10px;
+    }
+
+    main 
+    {
+        flex-direction: column;
+    }
+
+    .apresentacao__logos
+    {
+        justify-content: space-between;
+    }
+
+
+}
+
+
+
+
