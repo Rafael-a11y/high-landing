@@ -164,7 +164,8 @@ p{
     {
         padding: 13px 20px;
         width: 30%;
-        font-size: 1rem;
+        font-size: 0.5rem;
+        background-color: red;
     }
 
     .apresentacao__logos
