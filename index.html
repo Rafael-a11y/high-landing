@@ -6,6 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <title>High Landing</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('_dpFeDpg0pJAUxAHH');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -29,8 +52,11 @@
                 <br> — on a single platform. Powerful, affordable & e.</p>
             </div>
             <div class="apresentacao__inscricao">
-                <input class="apresentacao__inscricao__elemento" type="email" placeholder="Enter your email">
-                <button class="apresentacao__inscricao__elemento botao-negro" id="botao-inscricao">Get Started</button>
+                <form id="contact-form">
+                    <input type="hidden" name="contact_number">
+                    <input class="apresentacao__inscricao__elemento" type="email" placeholder="Enter your email"  name="user_email" required>
+                    <input type="submit" value="Get Started" class="apresentacao__inscricao__elemento botao-negro" id="botao-inscricao">
+                </form>
             </div>
             <div class="apresentacao__logos">
                 <img src="./assets/3. UI Elements/m_visa.png" alt="">
@@ -38,7 +64,7 @@
                 <img src="./assets/3. UI Elements/m_paypall.png" alt="">
             </div>
         </section>
-        <img class="imagem" src="./assets/5. Illustrations/Illustration_1.png" alt="">
+        <img class="imagem" id="homem-na-escada" src="./assets/5. Illustrations/Illustration_1.png" alt="">
     </main>
     <footer><p><h2 style="text-align: center;">Desenvolvido por Rafael Souto</h2></p></footer>
 </body>
