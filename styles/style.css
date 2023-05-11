@@ -168,7 +168,7 @@ p{
     {
         padding: 13px 20px;
         width: 30%;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .apresentacao__logos
@@ -196,11 +196,6 @@ p{
     .navegacao
     {
         gap: 20px;
-    }
-
-    form
-    {
-        display: flex;
     }
 
     #homem-na-escada
