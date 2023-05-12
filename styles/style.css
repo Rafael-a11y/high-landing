@@ -136,6 +136,11 @@ p{
         padding: 9px;
     }
 
+    main 
+    {
+        column-gap: 20px;
+    }
+
     .imagem
     {
         display: none;
@@ -159,7 +164,7 @@ p{
         flex-direction: column;
     }
 
-    form
+    for.apresentacao__inscricao__contact-form
     {
         display: flex;
     }
