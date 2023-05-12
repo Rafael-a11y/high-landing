@@ -168,6 +168,11 @@ p{
         font-size: 0.8rem;
     }
 
+    #botao-inscricao
+{
+    width: 130px; 
+}
+
     .apresentacao__logos
     {
         justify-content: space-between;
