@@ -136,11 +136,6 @@ p{
         padding: 9px;
     }
 
-    main 
-    {
-        column-gap: 200px;
-    }
-
     .imagem
     {
         display: none;
