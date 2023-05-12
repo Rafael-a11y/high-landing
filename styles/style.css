@@ -100,6 +100,11 @@ p{
 
 }
 
+form 
+    {
+        display: flex;
+    }
+
 .apresentacao__inscricao__contact-form__elemento
 {
     width: auto;
@@ -155,11 +160,6 @@ p{
         gap: 10px;
     }
 
-    form 
-    {
-        display: flex;
-    }
-
     .apresentacao__inscricao__contact-form__elemento
     {
         padding: 13px 20px;
@@ -208,6 +208,7 @@ p{
         padding-bottom: 10%;
     }
 }
+
 
 
 
