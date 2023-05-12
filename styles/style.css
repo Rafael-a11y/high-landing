@@ -154,9 +154,10 @@ p{
         gap: 10px;
     }
 
-    
-
-    
+    form 
+    {
+        display: flex;
+    }
 
     .apresentacao__inscricao__contact-form__elemento
     {
