@@ -156,10 +156,7 @@ p{
 
     
 
-    form 
-    {
-        display: flex;
-    }
+    
 
     .apresentacao__inscricao__contact-form__elemento
     {
@@ -167,11 +164,6 @@ p{
         width: 30%;
         font-size: 0.8rem;
     }
-
-    #botao-inscricao
-{
-    width: 130px; 
-}
 
     .apresentacao__logos
     {
