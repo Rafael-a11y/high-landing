@@ -157,7 +157,7 @@ p{
     main 
     {
         flex-direction: column;
-        column-gap: 180px;
+        column-gap: 200px;
     }
 
     form 
