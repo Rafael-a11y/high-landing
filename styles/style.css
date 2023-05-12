@@ -213,6 +213,14 @@ p{
     }
 }
 
+@media(orientation: landscape)
+{
+    .homem-na-escada
+    {
+        display: none;
+    }
+}
+
 
 
 
