@@ -100,7 +100,7 @@ p{
 
 }
 
-.apresentacao__inscricao__elemento
+.apresentacao__inscricao__contact-form__elemento
 {
     width: auto;
     font-size: var(--fonte-largura);
@@ -164,7 +164,7 @@ p{
         display: flex;
     }
 
-    .apresentacao__inscricao__elemento
+    .apresentacao__inscricao__contact-form__elemento
     {
         padding: 13px 20px;
         width: 30%;
@@ -210,14 +210,6 @@ p{
         justify-content: center;
         align-items: end;
         padding-bottom: 10%;
-    }
-}
-
-@media(orientation: landscape)
-{
-    .homem-na-escada
-    {
-        display: none;
     }
 }
 
