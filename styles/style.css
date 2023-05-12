@@ -109,7 +109,8 @@ p{
 
 #botao-inscricao
 {
-    width: 200px; 
+    width: auto;
+    flex-grow: 1;
 }
 
 .apresentacao__logos
