@@ -100,10 +100,11 @@ p{
 
 }
 
-form 
-    {
-        display: flex;
-    }
+#apresentacao__inscricao__contact-form 
+{
+    display: flex;
+    width: 100%;
+}
 
 .apresentacao__inscricao__contact-form__elemento
 {
