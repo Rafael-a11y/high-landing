@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,6 +23,7 @@
                 emailjs.sendForm('contact_service', 'contact_form', this)
                     .then(function() {
                         console.log('SUCCESS!');
+                        alert('Email enviado com sucesso!');
                     }, function(error) {
                         console.log('FAILED...', error);
                     });
@@ -67,5 +68,6 @@
         <img class="imagem" id="homem-na-escada" src="./assets/5. Illustrations/Illustration_1.png" alt="">
     </main>
     <footer><p><h2 style="text-align: center;">Desenvolvido por Rafael Souto</h2></p></footer>
+    <script src="./main.js"></script>
 </body>
 </html>
