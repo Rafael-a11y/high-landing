@@ -10,7 +10,7 @@
 
 <p><strong>Para não expor dados sensíveis, optei por não abrir minha caixa de email para mostrar a mensagem que foi disparada para a minha caixa de entrada do 'Gmail', mas de fato um email de confirmação de inscrição é enviado à caixa de entrada do email digitado no campo de input</strong></p>
 
-[High Landing 2.webm](https://github.com/Rafael-a11y/High-Landing/assets/63820646/1a86fb62-444a-41b8-88e8-4974f2c360e7)
+[High Landing 2.webm](https://github.com/Rafael-a11y/High-Landing/assets/63820646/1a86fb62-444a-41b8-88e8-4974f2c360e7#vitrinedev)
 
 # 📁 Acesso ao projeto
 
