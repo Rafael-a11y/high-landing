@@ -1,5 +1,9 @@
 <h1 align = "center">High Landing</h1>
-<p>Projeto parcialmente desenvolvido para exercitar meus aprendizados com tecnologias Front-end. Vale resaltar que o projeto está adaptado para smartphones e tablets.</p>
+
+![High Landing](https://github.com/Rafael-a11y/high-landing/assets/63820646/063136af-0d9e-43ce-bbb7-9027e7260b6f#vitrinedev)
+
+
+<p>Projeto parcialmente desenvolvido para exercitar meus aprendizados com tecnologias Front-end. Vale resaltar que o projeto está adaptado para smartphones e tablets, ou seja <strong>responsivo.</strong></p>
 <h4>
   ✔🚧 Projeto temporariamente pausado 🚧
 </h4>
@@ -10,7 +14,7 @@
 
 <p><strong>Para não expor dados sensíveis, optei por não abrir minha caixa de email para mostrar a mensagem que foi disparada para a minha caixa de entrada do 'Gmail', mas de fato um email de confirmação de inscrição é enviado à caixa de entrada do email digitado no campo de input</strong></p>
 
-[High Landing 2.webm](https://github.com/Rafael-a11y/High-Landing/assets/63820646/1a86fb62-444a-41b8-88e8-4974f2c360e7#vitrinedev)
+[High Landing 2.webm](https://github.com/Rafael-a11y/High-Landing/assets/63820646/1a86fb62-444a-41b8-88e8-4974f2c360e7)
 
 # 📁 Acesso ao projeto
 
@@ -19,6 +23,9 @@
 # 🛠️ Abrir e rodar o projeto
 
 **Descompacte o projeto, e depois entre na pasta do projeto, selecione o arquivo html index e clique com o clique direito do mouse, depois clique em 'abrir com' e selecione o navegador de seua preferência**
+
+# 🚀 Acesso online ao projeto 🚀
+<p><strong>O projeto pode ser acessado <a href="https://high-landing.vercel.app/" target="_blank">por aqui</a></strong></p>
 
 # ✔️ tecnologias usadas
 <ul>
